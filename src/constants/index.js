@@ -8,17 +8,17 @@ import {
     html,
     css,
     reactjs,
+    vuejs,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    tmEscolar,
+    expertos,
+    balero,
+    dif,
     carrent,
     jobit,
     tripguide,
@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "DB Design",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "IT consultant",
       icon: creator,
     },
   ];
@@ -81,6 +81,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Vue JS",
+      icon: vuejs,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -105,10 +109,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +116,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Laravel Full-Stack Developer",
+      company_name: "Expertos en Convenciones",
+      icon: expertos,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2020 - oct 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using Laravel and other related technologies.",
+        "Implementation of a payment gateway called openPay, registrations to different events, chat rooms, consumption of APIs such as vimeo, and zoom, creation of reports and statistics, electronic billing",
+        "Implement changes in the design, the architecture of the project, modernizing the platform, improving the performance of this, giving feedback on possible improvements to be implemented in the platform",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Laravel Full-Stack Developer",
+      company_name: "Balero Creativo",
+      icon: balero,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "ago 2019 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Provide support to several companies in any technological problem they had",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using HTML,Wordpress, Javascript,CSS,Laravel and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Dif Zapopan",
+      icon: dif,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Oct 2022 - Jun 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Angular.js, React.js, Laravel,Wordpress and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "tmEscolar",
+      icon: tmEscolar,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web application to the administration of toga rental and photo administration of a company that provides services to the UDG ",
+        "This administration allows you to upload images, and the algorithms make them organized according to the information in the database, so that they can be separated according to the students and you have better control of sales, the money that comes in, and the sending of the photos to the clients.",
+        "using React.js and Laravel and other related technologies, .",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       
       ],
     },
   ];
@@ -198,30 +200,51 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "tarjetas de presentacion",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Platform made in Laravel that shows virtual business cards, it contains analytics made natively, and an administrative panel with users, profiles, among other things, the landing page is made with WordPress",
       tags: [
         {
-          name: "react",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
+      source_code_link: "https://tarjetas-presentacion.com/",
+    },
+    {
+      name: "Toga rental",
+      description:
+        "platform to rent togas, register students, photo packages, print tickets, upload images, and the algorithms organize them according to the information in the database, so that they can be separated according to students and you have better control of sales , the money that comes in and the sending of photos to clients.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "laravel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Platform to DIF Zapopan",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Participate in the creation and updating of several platforms for the DIF Zapopan, including one for procedures, which at the moment is only focused on daycare centers for children.",
       tags: [
         {
           name: "react",
@@ -232,33 +255,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Laravel",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://tramites.difzapopan.gob.mx/#/auth/login",
     },
   ];
   
