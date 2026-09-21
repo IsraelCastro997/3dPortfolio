@@ -1,25 +1,25 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
-  mode: "jit",
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
         primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
+        secondary: "#c9c5dc",
+        tertiary: "#12102a",
+        "black-100": "#0e0c22",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        accent: "#7c6cff",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 24px 80px -20px rgba(33, 30, 53, 0.7)",
       },
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+      fontFamily: {
+        sans: ["Poppins", "system-ui", "sans-serif"],
       },
     },
   },
