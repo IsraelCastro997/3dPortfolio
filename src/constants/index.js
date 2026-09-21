@@ -1,267 +1,191 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    vuejs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    docker,
-    tmEscolar,
-    expertos,
-    balero,
-    dif,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "DB Design",
-      icon: web,
-    },
-    {
-      title: "Frontend Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "IT consultant",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Vue JS",
-      icon: vuejs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "Laravel Full-Stack Developer",
-      company_name: "Expertos en Convenciones",
-      icon: expertos,
-      iconBg: "#383E56",
-      date: "Nov 2020 - oct 2023",
-      points: [
-        "Developing and maintaining web applications using Laravel and other related technologies.",
-        "Implementation of a payment gateway called openPay, registrations to different events, chat rooms, consumption of APIs such as vimeo, and zoom, creation of reports and statistics, electronic billing",
-        "Implement changes in the design, the architecture of the project, modernizing the platform, improving the performance of this, giving feedback on possible improvements to be implemented in the platform",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        
-      ],
-    },
-    {
-      title: "Laravel Full-Stack Developer",
-      company_name: "Balero Creativo",
-      icon: balero,
-      iconBg: "#E6DEDD",
-      date: "ago 2019 - Feb 2023",
-      points: [
-        "Provide support to several companies in any technological problem they had",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Developing and maintaining web applications using HTML,Wordpress, Javascript,CSS,Laravel and other related technologies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Dif Zapopan",
-      icon: dif,
-      iconBg: "#383E56",
-      date: "Oct 2022 - Jun 2023",
-      points: [
-        "Developing and maintaining web applications using Angular.js, React.js, Laravel,Wordpress and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "tmEscolar",
-      icon: tmEscolar,
-      iconBg: "#E6DEDD",
-      date: "Dec 2023 - Present",
-      points: [
-        "Developing and maintaining web application to the administration of toga rental and photo administration of a company that provides services to the UDG ",
-        "This administration allows you to upload images, and the algorithms make them organized according to the information in the database, so that they can be separated according to the students and you have better control of sales, the money that comes in, and the sending of the photos to the clients.",
-        "using React.js and Laravel and other related technologies, .",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-       
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "tarjetas de presentacion",
-      description:
-        "Platform made in Laravel that shows virtual business cards, it contains analytics made natively, and an administrative panel with users, profiles, among other things, the landing page is made with WordPress",
-      tags: [
-        {
-          name: "Laravel",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://tarjetas-presentacion.com/",
-    },
-    {
-      name: "Toga rental",
-      description:
-        "platform to rent togas, register students, photo packages, print tickets, upload images, and the algorithms organize them according to the information in the database, so that they can be separated according to students and you have better control of sales , the money that comes in and the sending of photos to clients.",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "laravel",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Platform to DIF Zapopan",
-      description:
-        "Participate in the creation and updating of several platforms for the DIF Zapopan, including one for procedures, which at the moment is only focused on daycare centers for children.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Laravel",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://tramites.difzapopan.gob.mx/#/auth/login",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+import { expertos, dif } from "../assets";
+
+export const navLinks = [
+  { id: "stack", title: "Stack" },
+  { id: "projects", title: "Proyectos" },
+  { id: "ai", title: "IA" },
+  { id: "experience", title: "Experiencia" },
+  { id: "contact", title: "Contacto" },
+];
+
+export const techGroups = [
+  {
+    title: "Primary",
+    items: [
+      { name: "React", level: "core" },
+      { name: "TypeScript", level: "core" },
+      { name: "Node.js", level: "core" },
+      { name: "Laravel / PHP", level: "core" },
+      { name: "C# / .NET", level: "core" },
+      { name: "React Native", level: "core" },
+      { name: "JavaScript", level: "supporting" },
+      { name: "Next.js", level: "supporting" },
+      { name: "Express", level: "supporting" },
+      { name: "Python / FastAPI", level: "supporting" },
+      { name: "Expo", level: "supporting" },
+    ],
+  },
+  {
+    title: "Databases",
+    items: [
+      { name: "MySQL", level: "supporting" },
+      { name: "MariaDB", level: "supporting" },
+      { name: "PostgreSQL", level: "supporting" },
+      { name: "SQL Server", level: "supporting" },
+      { name: "MongoDB", level: "supporting" },
+    ],
+  },
+  {
+    title: "Infrastructure",
+    items: [
+      { name: "Docker", level: "supporting" },
+      { name: "Linux", level: "supporting" },
+      { name: "Git / GitHub", level: "supporting" },
+      { name: "CI/CD", level: "supporting" },
+      { name: "Azure", level: "supporting" },
+      { name: "AWS", level: "supporting" },
+      { name: "DigitalOcean", level: "supporting" },
+    ],
+  },
+  {
+    title: "AI",
+    items: [
+      { name: "Claude Code", level: "supporting" },
+      { name: "Cursor", level: "supporting" },
+      { name: "GitHub Copilot", level: "supporting" },
+      { name: "ChatGPT", level: "supporting" },
+      { name: "Ollama", level: "supporting" },
+      { name: "Qwen", level: "supporting" },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    name: "Expertos en Convenciones",
+    status: "Private",
+    problem: "Plataforma multi-tenant para operar eventos empresariales de registro a acceso en sitio.",
+    built: [
+      "Laravel / PHP, React, TypeScript, MySQL y APIs REST",
+      "Pagos, registro, QR, roles y módulos por tenant",
+      "Modernización de una plataforma real en producción",
+    ],
+    role: "Full-stack, architecture, API/database design and technical ownership.",
+    stack: ["Laravel", "PHP", "React", "TypeScript", "MySQL", "REST"],
+    screenshot: null,
+    screenshotFile: "public/projects/expertos.png",
+    imageAlt: "Screenshot pendiente de Expertos en Convenciones",
+  },
+  {
+    name: "TM Escolar",
+    status: "Private",
+    problem: "App escolar Android/iOS + backend, con sync offline/online. Sin datos personales en esta web.",
+    built: [
+      "React Native / Expo sobre Laravel REST",
+      "Auth, roles, push y sync idempotente",
+      "Galerías y tooling auxiliar en C#",
+    ],
+    role: "Architecture, mobile, API design, offline sync and ownership.",
+    stack: ["React Native", "Expo", "Laravel", "REST", "C#"],
+    screenshot: null,
+    screenshotFile: "public/projects/tm-escolar.png",
+    imageAlt: "Screenshot pendiente de TM Escolar",
+  },
+  {
+    name: "Trading Integrations",
+    status: "Private",
+    problem: "Integraciones privadas de trading: auth, APIs de brokers y datos financieros.",
+    built: [
+      "C# / .NET y Python / FastAPI",
+      "cTrader Open API, MetaTrader 5 y OAuth2",
+      "Sincronización y procesamiento de datos",
+    ],
+    role: "API integration, auth flows, backend services and troubleshooting.",
+    stack: ["C#", ".NET", "cTrader", "OAuth2", "FastAPI", "MT5"],
+    screenshot: null,
+    screenshotFile: "public/projects/trading.png",
+    imageAlt: "Screenshot pendiente de Trading Integrations",
+  },
+  {
+    name: "Marketplace & Booking Platform",
+    status: "Private",
+    problem: "Marketplace y reservas con catálogos, pricing y proveedores.",
+    built: [
+      "Next.js / React y APIs Laravel",
+      "Booking, pricing y catálogos",
+      "Arquitectura modular por dominio",
+    ],
+    role: "Product architecture, full-stack, API design and business rules.",
+    stack: ["Next.js", "React", "Laravel", "REST"],
+    screenshot: null,
+    screenshotFile: "public/projects/marketplace.png",
+    imageAlt: "Screenshot pendiente de Marketplace & Booking",
+  },
+];
+
+export const aiWorkflow = ["Analyze", "Plan", "Implement", "Test", "Review", "Validate"];
+
+export const experiences = [
+  {
+    title: "Líder de Proyectos / Full Stack Developer",
+    company_name: "Taloon Studio",
+    icon: null,
+    initials: "TS",
+    iconBg: "#1b1633",
+    date: "2023 — Presente",
+    points: [
+      "Liderazgo técnico de productos y entregas de extremo a extremo.",
+      "APIs financieras e integraciones en Node.js, React, Python y C#/.NET.",
+      "Automatización, Docker e infraestructura.",
+    ],
+  },
+  {
+    title: "Desarrollador Web / Responsable Técnico",
+    company_name: "DIF Zapopan",
+    icon: dif,
+    initials: "DZ",
+    iconBg: "#383E56",
+    date: "Oct 2022 — Jun 2023",
+    points: [
+      "Responsable técnico de sistemas administrativos para gobierno.",
+      "Desarrollo en React y Laravel, con mantenimiento de módulos Angular existentes.",
+      "APIs y bases de datos para trámites y operación institucional.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Expertos en Convenciones",
+    icon: expertos,
+    initials: "EC",
+    iconBg: "#151030",
+    date: "Nov 2020 — Oct 2023",
+    points: [
+      "Plataforma multi-tenant para gestión de eventos con reglas de negocio complejas.",
+      "Laravel, React y TypeScript sobre MySQL y APIs REST.",
+      "Módulos de registro, pagos, boletos, certificados, encuestas y control de acceso.",
+    ],
+  },
+];
+
+export const approachItems = [
+  {
+    title: "API-first",
+    text: "Contratos REST explícitos; clientes web y móvil desacoplados del backend.",
+  },
+  {
+    title: "Security by design",
+    text: "Roles, JWT/OAuth2, CORS y validación en el borde antes de persistir.",
+  },
+  {
+    title: "Modular architecture",
+    text: "Dominios separados (pagos, auth, sync, pricing) para cambiar reglas sin reescribir el núcleo.",
+  },
+  {
+    title: "Risk-based testing",
+    text: "Tests en auth, idempotencia, pagos y permisos; un cambio no se acepta solo por el reporte de un agente.",
+  },
+  {
+    title: "Evidence-based debugging",
+    text: "Validación contra diff, build, estado de base de datos y comportamiento real.",
+  },
+];
